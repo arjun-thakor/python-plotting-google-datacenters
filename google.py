@@ -1,7 +1,7 @@
 from plotly.offline import plot
 import plotly.graph_objs as go
 
-# mapbox_access_token = 'ADD_YOUR_TOKEN_HERE'
+# mapbox_access_token = '---------------ADD_YOUR_TOKEN_HERE-----------------------'
 
 data = [
     go.Scattermapbox(
@@ -31,7 +31,7 @@ layout = go.Layout(
     autosize=True,
     hovermode='closest',
     mapbox=dict(
-        accesstoken='pk.eyJ1IjoiYXJqdW4tdGhha29yIiwiYSI6ImNqcGtucWMzcjA1YXo0NG11dW92ZnhvbGEifQ.3aoFUmAWQn7jP-swCU7rjw',
+        accesstoken='---------------ADD_YOUR_TOKEN_HERE-----------------------',
         style='light'
     ),
 )
